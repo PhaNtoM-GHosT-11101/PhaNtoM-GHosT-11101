@@ -12,8 +12,10 @@
 
 <div align="center">
   <h3>⚡ Current Coordinates</h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=PhaNtoM-GHosT-11101&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhaNtoM-GHosT-11101&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PhaNtoM-GHosT-11101&theme=highcontrast&hide_border=true&background=000000" />
+  <br><br>
+  <h4>My Contribution Heatmap</h4>
+  <img src="https://ghchart.rshah.org/00FF41/PhaNtoM-GHosT-11101" alt="Aditya's Github Chart" />
 </div>
 
 ---
@@ -26,11 +28,17 @@
 ---
 
 ### 🏆 Top Bounties
-<div align="center">
-  <a href="https://github.com/PhaNtoM-GHosT-11101/reading-habit-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PhaNtoM-GHosT-11101&repo=reading-habit-app&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-  </a>
-  <a href="https://github.com/PhaNtoM-GHosT-11101/phantom-player">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=PhaNtoM-GHosT-11101&repo=phantom-player&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-  </a>
-</div>
+
+1. 📖 **[PageHabit](https://github.com/PhaNtoM-GHosT-11101/reading-habit-app)** <br> 
+   *A brutalist, offline-first PWA EPUB reader built with Vanilla JS & Firebase.*
+   
+2. 🎵 **[Phantom Player](https://github.com/PhaNtoM-GHosT-11101/phantom-player)** <br> 
+   *A highly optimized hacker-style terminal music player powered by Python Textual.*
+   
+3. 🚦 **[Enigma Traffic AI](https://github.com/PhaNtoM-GHosT-11101/enigma-traffic-ai)** <br>
+   *Traffic Enforcement Command & Control system.*
+
+<br/>
+<p align="center">
+  <i>"Just a guy who wants to explore everything."</i>
+</p>
