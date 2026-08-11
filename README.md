@@ -42,9 +42,10 @@ const aditya = {
 ## 🔥 Streak & Activity
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=PhaNtoM-GHosT-11101&theme=tokyonight&hide_border=true&background=0D1117&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6" />
+  <!-- auto-generated daily by .github/workflows/update-activity.yml -->
+  <img src="assets/streak.svg" />
   <br/><br/>
-  <img src="https://ghchart.rshah.org/7aa2f7/PhaNtoM-GHosT-11101" alt="Contribution Heatmap" />
+  <img src="assets/contributions.svg" alt="Contribution Heatmap" />
 </div>
 
 ---
