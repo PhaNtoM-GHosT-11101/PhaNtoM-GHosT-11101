@@ -15,6 +15,8 @@
 &nbsp;
 <img src="https://img.shields.io/github/followers/PhaNtoM-GHosT-11101?style=for-the-badge&color=bb9af7&label=FOLLOWERS&logo=github" />
 &nbsp;
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3APhaNtoM-GHosT-11101&query=total_count&prefix=TOTAL+COMMITS%3A+&style=for-the-badge&color=7aa2f7&logo=github" />
+&nbsp;
 <img src="https://img.shields.io/badge/Location-Tripura%2C%20India-e0af68?style=for-the-badge&logo=googlemaps&logoColor=white" />
 
 </div>
@@ -40,7 +42,7 @@ const aditya = {
 ## 🔥 Streak & Activity
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=PhaNtoM-GHosT-11101&theme=tokyonight&hide_border=true&background=0D1117&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6" />
+  <img src="https://streak-stats.demolab.com/?user=PhaNtoM-GHosT-11101&theme=tokyonight&hide_border=true&background=0D1117&ring=7aa2f7&fire=ff9e64&currStreakLabel=a9b1d6" />
   <br/><br/>
   <img src="https://ghchart.rshah.org/7aa2f7/PhaNtoM-GHosT-11101" alt="Contribution Heatmap" />
 </div>
