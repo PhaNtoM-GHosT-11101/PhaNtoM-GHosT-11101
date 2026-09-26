@@ -1,93 +1,100 @@
 <div align="center">
 
-# Aditya Priyadarshi
+<!-- HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&customColorList=12,20,28&text=Aditya%20Priyadarshi&fontColor=a9b1d6&fontSize=70&fontAlign=50&fontAlignY=40&desc=Hacker%20%2F%20Tinkerer%20%2F%20Explorer&descColor=7aa2f7&descSize=22&descAlignY=62&animation=fadeIn&stroke=7aa2f7&strokeWidth=1" />
 
-**B.Tech · Computational Mathematics**
-National Institute of Technology Agartala
+<!-- TYPING TAGLINE -->
+<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=7AA2F7&center=true&vCenter=true&width=700&lines=I+break+things+to+learn+how+they+work.;I+build+things+nobody+asked+for.;Exploring+the+multiverse+of+tech.;EPUB+readers%2C+terminal+music%2C+traffic+AI...;If+it+sounds+fun%2C+I'll+build+it." alt="Typing SVG" />
 
-[![Python](https://img.shields.io/badge/Python-3B12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
-[![MATLAB](https://img.shields.io/badge/MATLAB-E16737?logo=mathworks&logoColor=white)](https://www.mathworks.com/)
+<!-- BADGES -->
+<br/><br/>
+<a href="https://github.com/PhaNtoM-GHosT-11101">
+  <img src="https://komarev.com/ghpvc/?username=PhaNtoM-GHosT-11101&style=for-the-badge&color=7aa2f7&label=PROFILE+VIEWS" />
+</a>
+&nbsp;
+<img src="https://img.shields.io/github/followers/PhaNtoM-GHosT-11101?style=for-the-badge&color=bb9af7&label=FOLLOWERS&logo=github" />
+&nbsp;
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fsearch%2Fcommits%3Fq%3Dauthor%3APhaNtoM-GHosT-11101&query=total_count&prefix=TOTAL+COMMITS%3A+&style=for-the-badge&color=7aa2f7&logo=github" />
+&nbsp;
+<img src="https://img.shields.io/badge/Location-Tripura%2C%20India-e0af68?style=for-the-badge&logo=googlemaps&logoColor=white" />
 
 </div>
 
 ---
 
-## Numerical methods & statistical inference
+## ⚡ About Me
 
-I care about methods that are **measured rather than assumed** — the order of
-convergence of a solver, whether an interval really achieves its nominal
-coverage, whether a hypothesis test controls its error rate. Both repositories
-below are written to make those quantities checkable.
-
-### [`numerical-methods-python`](numerical-methods-python)
-
-Root-finding, ODE integration, optimisation and dense linear algebra in pure
-NumPy, with every solver returning its full iteration history so convergence
-order can be *measured*.
-
-| Method | Measured order | Theory |
-|---|---|---|
-| Newton-Raphson | **1.98** | 2 |
-| Secant | (two-step recurrence) | ~1.618 |
-| Bisection | (envelope halves per step) | 1 |
-
-Euler / Heun / RK4 on `y' = y` give implied orders **0.97 / 1.97 / 3.97**
-against theory 1 / 2 / 4, measured by doubling the step count.
-
-A recurring theme: a convergence *measurement* can itself be invalid, and the
-tests pin down why. Bisection's error oscillates inside a halving envelope, so
-no pointwise order estimate means anything; the secant recurrence
-`e_n ~ C e_n e_{n-1}` is not of the form `e_{n+1} = C e_n^p`; and a
-double-precision solver's final iterate sits *on* the noise floor, which drags
-the mean order from 2.0 to 1.5 unless excluded.
-
-`24/24 tests` · zero dependencies beyond NumPy
-
-### [`monte-carlo-inference`](monte-carlo-inference)
-
-Statistical inference in pure NumPy. No SciPy, no pandas, no statsmodels — the
-distribution functions are implemented from scratch, so the mathematics stays
-visible.
-
-- Student-t via the regularised incomplete beta (Lentz continued fraction),
-  reproducing published table values to `1e-5`
-- Monte Carlo integration and importance sampling, with the optimal proposal
-  `q ∝ f` driving the variance to zero
-- Percentile bootstrap CIs; permutation test, **exact by enumeration** on small
-  samples
-- OLS with Student-t intervals and HC3 robust standard errors
-
-The tests **measure error rates instead of trusting them**: 95% interval
-coverage over hundreds of trials, permutation-test type I error under a true
-null, and the CLT rate confirmed as `N**-0.5` rather than `N**-1` by showing
-`|error| × √N` stays flat.
-
-`28/28 tests` · Student-t table values match to `1e-5`
+```typescript
+const aditya = {
+  handle     : "PhaNtoM-GHosT-11101",
+  pronouns   : "he/him",
+  location   : "Tripura, India 🇮🇳",
+  philosophy : "If it sounds fun, I'll build it.",
+  currently  : ["Breaking things", "Exploring tech", "Building PageHabit"],
+  askMeAbout : ["Web Dev", "PWAs", "Python", "Terminal UIs", "EPUB parsing"],
+  funFact    : "I got tired of reading apps so I built my own.",
+};
+```
 
 ---
 
-## Systems & tooling
+## 🔥 Streak & Activity
 
-Not the focus, but real projects I'd defend line by line.
-
-| Project | What it is |
-|---|---|
-| [`reading-habit-app`](reading-habit-app) | Offline-first PWA EPUB reader. Bionic reading, dictionary lookup, cloud sync, community library. Offline-first sync with conflict resolution is the hard part. |
-| [`phantom-player`](phantom-player) | Terminal music player in Python — `Textual` + `mpv`. No Electron. |
-| [`WiFi-Watchdog`](WiFi-Watchdog) | Network reconnaissance in Shell: 639 lines, 26 functions, ARP-level discovery, MAC-randomisation detection, webhook alerting, table/CSV/JSON output. |
+<div align="center">
+  <!-- auto-generated daily by .github/workflows/update-activity.yml -->
+  <img src="assets/streak.svg" />
+  <br/><br/>
+  <img src="assets/contributions.svg" alt="Contribution Heatmap" />
+</div>
 
 ---
 
-## Focus areas
+## 🛠️ Tech Arsenal
 
-Numerical analysis · Monte Carlo methods · Statistical inference · Optimization
-· Time-series and stochastic processes
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,firebase,git,github,linux,bash,vscode&theme=dark&perline=11" />
+</div>
 
-**Tooling:** Python (NumPy, pandas, matplotlib, pytest) · MATLAB · JavaScript · Shell · Git
+---
+
+## 🚀 Hero Projects
+
+<div align="center">
+
+| 📖 PageHabit | 🎵 Phantom Player | 🚦 Enigma Traffic AI |
+|:---:|:---:|:---:|
+| Brutalist, offline-first PWA EPUB reader. Kindle-like pagination, bionic reading, cloud sync via Firebase. | Hacker-style terminal music player. Powered by Python Textual + mpv. Zero electron, 100% terminal. | Traffic Enforcement Command & Control system. AI-driven gridlock management. |
+| `Vanilla JS` `Firebase` `PWA` | `Python` `Textual` `mpv` | `HTML` `AI` `Maps` |
+| [**View →**](https://github.com/PhaNtoM-GHosT-11101/reading-habit-app) | [**View →**](https://github.com/PhaNtoM-GHosT-11101/phantom-player) | [**View →**](https://github.com/PhaNtoM-GHosT-11101/enigma-traffic-ai) |
+
+</div>
+
+---
+
+## 🎵 Currently Listening To
+
+> I got tired of Spotify's UI. So I built my own terminal music player.
+
+```bash
+$ phantom-player --now-playing
+▶  Unknown Artist — [Local Library]
+   Powered by mpv + Python Textual
+   Source: github.com/PhaNtoM-GHosT-11101/phantom-player
+```
+
+---
+
+## 💬 Random Dev Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+</div>
 
 ---
 
 <div align="center">
-<sub>Building things that measure their own error. 📐</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,28&height=100&section=footer" />
+  <br/>
+  <sub><i>"Just a guy who wants to explore everything."</i></sub>
 </div>
